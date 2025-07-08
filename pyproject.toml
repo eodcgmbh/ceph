@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ceph"
+version = "0.1.0"
+description = "A python adapter for interacting with ceph S3 object storage"
+authors = ["Gerald Irsiegler"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.39.3"
+fsspec = "^2025.5.1"
+pydantic = "^2.11.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
